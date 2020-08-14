@@ -1,5 +1,14 @@
 {
+  "scripts": {
+    "build": "rm -rf dist && parcel build src/index.html --no-minify --public-url ./"
+  },
   "devDependencies": {
     "cssnano": "^4.1.10"
-  }
+  },
+  "name": "NAV-1",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kzchan111/NAV-sangni.git",
+  "author": "kzchan <kzchan0816@qq.com>",
+  "license": "MIT"
 }
